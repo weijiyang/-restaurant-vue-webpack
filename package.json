@@ -4,18 +4,21 @@
   "description": "基于vue、webpack搭建的订餐系统",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server --config webpack.config.js --mode development"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://weijiyang:xue2468008@github.com/weijiyang/restaurant-vue-webpack.git",
-    "build":"webpack --config webpack.config.js",
-    "dev" : "webpack-dev-server --config webpack.config.js --mode development"
+    "url": "git+https://weijiyang:xue2468008@github.com/weijiyang/restaurant-vue-webpack.git"
   },
   "author": "weijiyang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/weijiyang/restaurant-vue-webpack/issues"
   },
-  "homepage": "https://github.com/weijiyang/restaurant-vue-webpack#readme"
+  "homepage": "https://github.com/weijiyang/restaurant-vue-webpack#readme",
+  "devDependencies": {
+    "webpack-cli": "^2.0.13"
+  }
 }
