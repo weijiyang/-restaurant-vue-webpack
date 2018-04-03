@@ -27,7 +27,13 @@ module.exports = {
         test : /\.css$/,
         use : [
           "style-loader",
-          "css-loader"
+          "css-loader",
+          {
+            loader :"postcss-loader",
+            options : {
+              sourceMap : true 
+            }
+          }
         ]
       },
       {
@@ -36,8 +42,21 @@ module.exports = {
       }
     ]
   },
+  devtool:"#cheap-module-eval-source-map",
+  devServer : {
+    port : "8000",
+    host : "localhost",
+    overlay : {
+      errors :true
+    },
+    open : true,
+    hot : true 
+  },
   plugins:[
-    new HTMLPlugin()
+    new HTMLPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NoEmitOnErrorsPlugin()
+
   ]
 
 }
