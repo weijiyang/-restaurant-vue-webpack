@@ -1,98 +1,22 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-  <title>Home</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
-  <link href="css/slider.css" rel="stylesheet" type="text/css"  media="all" />
-  <script type="text/javascript" src="js/jquery.min.js"></script> 
-  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
-  <script type="text/javascript" src="js/camera.min.js"></script>
-  <script type="text/javascript" src="js/jquery.lightbox.js"></script> 
-  <link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen" />
-	  <script type="text/javascript">
-		  $(function() {
-			$('.gallery a').lightBox();
-		  });
-	  </script>
-	 <script type="text/javascript">
-			   jQuery(function(){
-				jQuery('#camera_wrap_1').camera({
-					pagination: false,
-				});
-			});
-	 </script>
- </head>
-  <body>
-	<!----start-header----->
-	 <div class="header">
-	     <div class="wrap">
-			<div class="top-header">
-				<div class="logo">
-					<a href="index.html"><img src="images/logo.png" title="logo" /></a>
-				</div>
-				<div class="social-icons">
-					<ul>
-						<li><a href="#"><img src="images/facebook.png" title="facebook" /></a></li>
-						<li><a href="#"><img src="images/twitter.png" title="twitter" /></a></li>
-						<li><a href="#"><img src="images/google.png" title="google pluse" /></a></li>
-					</ul>
-				</div>
-				<div class="clear"> </div>
-			</div>
-			<!---start-top-nav---->
-			<div class="top-nav">
-				<div class="top-nav-left">
-					<ul>
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="services.html">Services</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
-						<li><a href="contact.html">Contact</a></li>
-						<div class="clear"> </div>
-					</ul>
-				</div>
-				<div class="top-nav-right">
-					<form>
-						<input type="text"><input type="submit" value="" />
-					</form>
-				</div>
-				<div class="clear"> </div>
-			</div>
-			<!---End-top-nav---->
-		</div>
-	</div>
-   <!----End-header----->
-	       <!--start-image-slider---->
-			    <div class="slider">					     
-					<div class="camera_wrap camera_azure_skin" id="camera_wrap_1">									           
-						<div data-src="images/slider1.jpg">  </div> 
-						<div data-src="images/slider2.jpg">  </div>
-						<div data-src="images/slider3.jpg">  </div>
-						<div data-src="images/slider4.jpg">  </div>
-					</div>
-					<div class="clear"> </div>					       
-			</div>					
-         <!--End-image-slider---->
-		 <!---start-content---->
+<template>
+	<div id="indexContent">
 		 <div class="content">
 		 	<div class="top-grids">
 		 		<div class="wrap">
 			 		<div class="top-grid">
-			 			<a href="#"><img src="images/icon1.png" title="icon-name"></a>
+			 			<a href="#"><img src="../assets/images/icon1.png" title="icon-name"></a>
 			 			<h3>Sucess Story</h3>
 			 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 			 			<a class="button" href="about.html">Read More</a>
 			 		</div>
 			 		<div class="top-grid">
-			 			<a href="#"><img src="images/icon2.png" title="icon-name"></a>
+			 			<a href="#"><img src="../assets/images/icon2.png" title="icon-name"></a>
 			 			<h3>Our Services</h3>
 			 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
 			 			<a class="button" href="services.html">Read More</a>
 			 		</div>
 			 		<div class="top-grid last-topgrid">
-			 			<a href="#"><img src="images/icon3.png" title="icon-name"></a>
+			 			<a href="#"><img src="../assets/images/icon3.png" title="icon-name"></a>
 			 			<h3>Location</h3>
 			 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 			 			<a class="button" href="contact.html">Read More</a>
@@ -132,12 +56,12 @@
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 									<div class="gallery">
 										<ul>
-												<li><a href="images/slider1.jpg"><img src="images/slider1.jpg" alt=""></a></li>
-												<li><a href="images/slider2.jpg"><img src="images/slider2.jpg" alt=""></a></li>
-												<li><a href="images/slider3.jpg"><img src="images/slider3.jpg" alt=""></a></li>
-												<li><a href="images/slider4.jpg"><img src="images/slider4.jpg" alt=""></a></li>
-												<li><a href="images/slider1.jpg"><img src="images/slider1.jpg" alt=""></a></li>
-												<li><a href="images/slider2.jpg"><img src="images/slider2.jpg" alt=""></a></li>											
+												<li><a href="../assets/images/slider1.jpg"><img src="../assets/images/slider1.jpg" alt=""></a></li>
+												<li><a href="../assets/images/slider2.jpg"><img src="../assets/images/slider2.jpg" alt=""></a></li>
+												<li><a href="../assets/images/slider3.jpg"><img src="../assets/images/slider3.jpg" alt=""></a></li>
+												<li><a href="../assets/images/slider4.jpg"><img src="../assets/images/slider4.jpg" alt=""></a></li>
+												<li><a href="../assets/images/slider1.jpg"><img src="../assets/images/slider1.jpg" alt=""></a></li>
+												<li><a href="../assets/images/slider2.jpg"><img src="../assets/images/slider2.jpg" alt=""></a></li>											
 											<div class="clear"> </div>
 										</ul>										
 								 </div>
@@ -155,53 +79,32 @@
 								<div class="clear"> </div>
 							</div>
 							<div class="clear"> </div>
-	<!--end-wrap--->
-	 </div>
-		 </div>
-		 <!---End-content---->
-		 <!---start-footer---->
-		 <div class="footer">
-		<div class="wrap">
-			<div class="footer-grid">
-				<h3>About us</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-				<a href="#">ReadMore</a>
-			</div>
-			<div class="footer-grid center-grid">
-				<h3>Recent posts</h3>
-				<ul>
-					<li><a href="#">eiusmod tempor incididunt</a></li>
-					<li><a href="#">adipisicing elit, sed</a></li>
-					<li><a href="#">mod tempor incididunt ut</a></li>
-					<li><a href="#">dipisicing elit, sed do</a></li>
-					<li><a href="#">econsectetur adipisicing</a></li>
-				</ul>
-			</div>
-			<div class="footer-grid twitts">
-				<h3>Latest Tweets</h3>
-				<p><label>@Lorem ipsum</label>dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				<span>10 minutes ago</span>
-				<p><label>@consectetur</label>dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				<span>15 minutes ago</span>
-			</div>
-			<div class="footer-grid">
-				<h3>DID YOU KNOW?</h3>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-				<a href="#">ReadMore</a>
-			</div>
-			<div class="clear"> </div>
-		</div>
-		<div class="clear"> </div>
+						</div>
+				</div>
 	</div>
-	<div class="copy-right">
-		<div class="top-to-page">
-						<a href="#top" class="scroll"> </a>
-						<div class="clear"> </div>
-					</div>
-		<p>Copyright &copy; 2014.Company name All rights reserved.<a target="_blank" href="http://www.xwcms.net/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
-	</div>
-		 <!---End-footer---->
-	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
-</body>
-</html>
+</template>
+<script>
+export default {
+	created:function(){
+		jQuery(function(){
+				jQuery('#camera_wrap_1').camera({
+					pagination: false,
+				});
+			});
+	},
+	mounted: function(){
+		 this.$nextTick(function () {
+         $('.gallery a').lightBox();
+      })
+	}
+}
+</script>
+<style src="../assets/css/lightbox.css"></style>
+
+<style scoped>
+#indexContent{
+	overflow:hidden
+}
+</style>
+
 

@@ -9,16 +9,19 @@
 import Header from "./restaurant/header.vue"
 import Footer from "./restaurant/footer.vue"
 import Content from "./restaurant/index.vue"
-
+import "./assets/js/jquery.min.js"
+import  "./assets/js/jquery.easing.1.3.js"
+import "./assets/js/camera.min.js"
+import "./assets/js/jquery.lightbox.js"
 export default {
   components : {
     Header,Content,Footer
   }
 }
 </script>
+<style src="./assets/css/style.css"></style>
 
 <style>
 
 </style>
-
 
