@@ -1,54 +1,6 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-  <title>Services</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
- </head>
-  <body>
-	<!----start-header----->
-	 <div class="header">
-	     <div class="wrap">
-			<div class="top-header">
-				<div class="logo">
-					<a href="index.html"><img src="images/logo.png" title="logo" /></a>
-				</div>
-				<div class="social-icons">
-					<ul>
-						<li><a href="#"><img src="images/facebook.png" title="facebook" /></a></li>
-						<li><a href="#"><img src="images/twitter.png" title="twitter" /></a></li>
-						<li><a href="#"><img src="images/google.png" title="google pluse" /></a></li>
-					</ul>
-				</div>
-				<div class="clear"> </div>
-			</div>
-			<!---start-top-nav---->
-			<div class="top-nav">
-				<div class="top-nav-left">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li class="active"><a href="services.html">Services</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
-						<li><a href="contact.html">Contact</a></li>
-						<div class="clear"> </div>
-					</ul>
-				</div>
-				<div class="top-nav-right">
-					<form>
-						<input type="text"><input type="submit" value="" />
-					</form>
-				</div>
-				<div class="clear"> </div>
-			</div>
-			<!---End-top-nav---->
-		</div>
-	</div>
-   <!----End-header----->
-		 <!---start-content---->
-		 <div class="content">
-		 	<!---start-services---->
+<template>
+	<div id="service">
+			<div class="content">
 		 	<div class="services">
 		 		<div class="wrap">
 					<div class="services-header">
@@ -119,51 +71,16 @@
 					</div>
 				</div>
 				</div>
-		 	<!---End-services---->
-		 <!---End-content---->
-		 <!---start-footer---->
-		 <div class="footer">
-		<div class="wrap">
-			<div class="footer-grid">
-				<h3>About us</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-				<a href="#">ReadMore</a>
-			</div>
-			<div class="footer-grid center-grid">
-				<h3>Recent posts</h3>
-				<ul>
-					<li><a href="#">eiusmod tempor incididunt</a></li>
-					<li><a href="#">adipisicing elit, sed</a></li>
-					<li><a href="#">mod tempor incididunt ut</a></li>
-					<li><a href="#">dipisicing elit, sed do</a></li>
-					<li><a href="#">econsectetur adipisicing</a></li>
-				</ul>
-			</div>
-			<div class="footer-grid twitts">
-				<h3>Latest Tweets</h3>
-				<p><label>@Lorem ipsum</label>dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				<span>10 minutes ago</span>
-				<p><label>@consectetur</label>dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				<span>15 minutes ago</span>
-			</div>
-			<div class="footer-grid">
-				<h3>DID YOU KNOW?</h3>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-				<a href="#">ReadMore</a>
-			</div>
-			<div class="clear"> </div>
-		</div>
-		<div class="clear"> </div>
 	</div>
-	<div class="copy-right">
-		<div class="top-to-page">
-						<a href="#top" class="scroll"> </a>
-						<div class="clear"> </div>
-					</div>
-		<p>Copyright &copy; 2014.Company name All rights reserved.<a target="_blank" href="http://www.xwcms.net/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
-	</div>
-		 <!---End-footer---->
-	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
-</body>
-</html>
+</template>
+<script>
+export default {
+	
+}
+</script>
+<style>
 
+</style>
+
+
+		 

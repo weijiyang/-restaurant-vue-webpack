@@ -13,7 +13,13 @@
 </template>
 <script>
 export default {
-  
+  created:function(){
+		jQuery(function(){
+				jQuery('#camera_wrap_1').camera({
+					pagination: false,
+				});
+			});
+	}
 }
 </script>
 <style src="../assets/css/slider.css" scoped>

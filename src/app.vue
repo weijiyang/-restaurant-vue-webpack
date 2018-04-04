@@ -20,6 +20,8 @@ export default {
 }
 </script>
 <style src="./assets/css/style.css"></style>
+<style src="./assets/css/slider.css"></style>
+<style src="./assets/css/lightbox.css"></style>
 
 <style>
 

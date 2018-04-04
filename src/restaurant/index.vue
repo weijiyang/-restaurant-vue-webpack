@@ -85,13 +85,6 @@
 </template>
 <script>
 export default {
-	created:function(){
-		jQuery(function(){
-				jQuery('#camera_wrap_1').camera({
-					pagination: false,
-				});
-			});
-	},
 	mounted: function(){
 		 this.$nextTick(function () {
          $('.gallery a').lightBox();
@@ -99,11 +92,11 @@ export default {
 	}
 }
 </script>
-<style src="../assets/css/lightbox.css"></style>
+<style src="../assets/css/style.css"></style>
 
 <style scoped>
 #indexContent{
-	overflow:hidden
+
 }
 </style>
 
